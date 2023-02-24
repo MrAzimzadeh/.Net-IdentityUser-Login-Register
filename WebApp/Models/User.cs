@@ -8,7 +8,7 @@ namespace WebApp.Models
 {
     public class User : IdentityUser
     {
-        public string UserName { get; set; }
+
         public string Name { get; set; }
         public string Surname { get; set; }
         public string AboutAuthor { get; set; }
