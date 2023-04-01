@@ -7425,6 +7425,22 @@
       "PackagePath": "staticwebassets\\Admin\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\mehem\\OneDrive\\Desktop\\Login-Register\\WebApp\\wwwroot\\Uploads\\Screenshot_20230224_075119.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot_20230224_075119.png"
+    },
+    {
+      "Id": "C:\\Users\\mehem\\OneDrive\\Desktop\\Login-Register\\WebApp\\wwwroot\\Uploads\\Screenshot_20230224_075133.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot_20230224_075133.png"
+    },
+    {
+      "Id": "C:\\Users\\mehem\\OneDrive\\Desktop\\Login-Register\\WebApp\\wwwroot\\Uploads\\Screenshot_20230224_075204.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot_20230224_075204.png"
+    },
+    {
+      "Id": "C:\\Users\\mehem\\OneDrive\\Desktop\\Login-Register\\WebApp\\wwwroot\\Uploads\\Screenshot_20230224_075224.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot_20230224_075224.png"
+    },
+    {
       "Id": "C:\\Users\\mehem\\OneDrive\\Desktop\\Login-Register\\WebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
